@@ -73,13 +73,4 @@ def greedy(initial_board, level, max_iterations=10000):
     }
     return None, time_dict, 0
 
-# Exemplo de uso
-if __name__ == "__main__":
-    print(greedy_grouped_heuristic_solution(
-        [[2, 4, 1, 4], 
-         [3, 4, 1, 2], 
-         [2, 3, 1, 1], 
-         [3, 3, 2, 4], 
-         [0, 0, 0, 0], 
-         [0, 0, 0, 0]], 
-        level=1))
+
