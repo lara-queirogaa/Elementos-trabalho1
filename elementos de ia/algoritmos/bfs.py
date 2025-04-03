@@ -64,5 +64,3 @@ def bfs_solution(initial_board, level):
     }
     return None, time_dict, 0
 
-
-print(bfs_solution([[2, 4, 1, 4], [3, 4, 1, 2], [2, 3, 1, 1], [3, 3, 2, 4], [0,0,0,0], [0,0,0,0]], 1))
