@@ -5,8 +5,8 @@ import copy
 import time
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from movimentos import *
-from check_win import *
+from uteis.movimentos import *
+from uteis.check_win import *
 
 def dfs_solution(initial_board, level, max_depth=20):
     """
