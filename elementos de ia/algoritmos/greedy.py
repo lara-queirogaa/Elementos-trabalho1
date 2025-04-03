@@ -3,11 +3,11 @@ import os
 import copy
 import time
 import heapq
+from heurística import *
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from .movimentos import *
-from check_win import *
-from heurística import *
+from uteis.movimentos import *
+from uteis.check_win import *
                
           
 def greedy(initial_board, level, max_iterations=10000):
